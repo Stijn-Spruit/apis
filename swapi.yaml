@@ -135,12 +135,9 @@ definitions:
       name:
         type: string
         description: Display name of person.
-      homeWorldId:
-        type: integer
-        description: Indetifier of the planet the person is from.
-      allegiance:
+      height:
         type: string
-        description: Which side or team the person has an allegiance.
+        description: How tall the person is
   planet:
     type: object
     properties:
