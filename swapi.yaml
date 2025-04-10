@@ -150,10 +150,10 @@ definitions:
   film:
     type: object
     properties:
-      id:
+      episode_id:
         type: integer
         description: Unique identifier representing a specific film.
-      name:
+      title:
         type: string
         description: Display name of film.
   Error:
