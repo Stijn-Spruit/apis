@@ -135,6 +135,9 @@ definitions:
       name:
         type: string
         description: Display name of person.
+      height:
+        type: string
+        description: height of the person
   planet:
     type: object
     properties:
